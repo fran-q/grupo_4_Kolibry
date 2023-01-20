@@ -6,3 +6,5 @@ integrantes:
 fernando lepe: programador y base de datos 
 francisco quiroga: programador y organizador
 nahir cabezas: programador y diseño grafico
+
+paginas de inspiracion:
