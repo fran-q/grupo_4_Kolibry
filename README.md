@@ -4,8 +4,8 @@ destinado al publico general que se interese en el deporte y actividades recreat
 sin interesarse en un deporte en particular 
 
 Integrantes:
-Ferando Lepe: Programador y base de datos 
-Francisco Quiroga: programador y organizador del equipo
+Ferando Lepe: tengo 17 años, soy rogramador y base de datos 
+Francisco Quiroga: tengo 18 años, soy programador y organizador del equipo 
 Nahir Cabezas: buenas tengo 18 años, soy programadora principiante e ilustradora digital y ahora me quiero enfocar en aprender diseño grafico para este proyecto
 
 Paginas de inspiracion:
