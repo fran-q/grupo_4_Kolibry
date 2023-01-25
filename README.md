@@ -5,7 +5,7 @@ sin interesarse en un deporte en particular
 integrantes:
 Ferando Lepe: Programador y base de datos 
 Francisco Quiroga: programador y organizador del equipo
-Nahir Cabezas: programador y diseño grafico
+Nahir Cabezas: buenas tengo 18 años,soy programadora e ilustradora digital y ahora me quiero enfocar en aprender diseño grafico para este proyecto
 
 paginas de inspiracion:
 Adidas: Marca reconocida a nivel mundial y que abarca un publico bastante general y amplio, con figuras unicas como representantes
