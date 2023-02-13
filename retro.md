@@ -1,0 +1,4 @@
+  En este primer sprint comenzamos a trabajar en grupo y pudimos comunicaranos de forma exitosa las ideas, a su vez que buscamos de forma continua inspiracion sobre paginas ya diseñadas anteriormente, sumado a herramientas nuevas como github y trello ahora podremos desarrollar de forma eficaz el proyecto, como puntos positivos destacar podemosm tomar la implementacion de penpot para los wireframes.
+  Gracias a la cantidad variada de herramientas podemos y esperamos presentar un buen proyecto si es que nos enfocamos en la organizacion y distribucion de las tareas para poder optimizar los tiempos al maximo, la etapa de implementacion del html y css ser un desafio a nivel organizativo/comunicativo.
+  Al ser nuestro primer proyecto a nivel grupal, varias ideas fueron descartadas en el diseño de la paginan web, como un carrusel de banner o de foto de presentacion de producto, para implementar banners estaticos o galerias en su lugar.
+  
