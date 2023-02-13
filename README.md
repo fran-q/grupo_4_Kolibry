@@ -3,6 +3,7 @@ e-comerce distribuidora de indumentaria deportiva mixta de diferentes marcas ent
 destinado al publico general que se interese en el deporte y actividades recreativas
 sin interesarse en un deporte en particular 
 
+
 Integrantes:
 Ferando Lepe: tengo 17 años, soy rogramador y base de datos 
 Francisco Quiroga: tengo 18 años, soy programador y organizador del equipo 
@@ -15,9 +16,16 @@ Daedo: Ingenio, creatividad y dinamismo en la presentacion de su pagina. Lo prim
 Reebook: Diseño simple y concizo en la presentacion, sumado a un cambio de pose a la hora de colocar el puntero encima del producto para poder apreciar mejor cada lado de este el cual nos parecio un agregado interesante
 Puma: Distribucion de los elementos simples y eficaz con su estructura de baner y presentaion de productos sumado a unos colores agradables a la vista
 
+
 Links de dichas paginas:
 https://www.adidas.com.ar/
 https://www.nike.com/ar/
 https://www.daedo.com/es/
 https://www.reebok.com.ar/
 https://ar.puma.com/
+
+
+Link trablero de trabajo en trello:
+https://trello.com/b/HSM6wgMC/grupo-4-kolibry
+unirse como miembro del tablero:
+https://trello.com/invite/b/HSM6wgMC/ATTI84ace0e47fc02553d217a4b208c48ac11FF5651A/grupo-4-kolibry
