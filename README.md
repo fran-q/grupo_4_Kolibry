@@ -27,5 +27,6 @@ https://ar.puma.com/
 
 Link trablero de trabajo en trello:
 https://trello.com/b/HSM6wgMC/grupo-4-kolibry
-unirse como miembro del tablero:
+
+Unirse como miembro del tablero:
 https://trello.com/invite/b/HSM6wgMC/ATTI84ace0e47fc02553d217a4b208c48ac11FF5651A/grupo-4-kolibry
