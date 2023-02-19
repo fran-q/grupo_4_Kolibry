@@ -23,5 +23,5 @@ app.get('/registro', (req, res) => {
 });
 
 //npm i nodemon
-//npx nodemon app
+//npx nodemon app.js
 // Con el primer comando instalan el nodemon y con el segundo lo ejecutan, para que los cambios se carguen de forma inmediata a la pagina web apenas guarden los cambios, lo anoto por las dudas
