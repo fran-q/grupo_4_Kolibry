@@ -6,7 +6,7 @@ const funca = console.log("el localhost funciona en el puerto " + port);
 
 app.listen(port, () => funca);
 
-app.use(express.static("./public"));
+app.use(express.static("./Public"));
 
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname,"./src/views/index.html"));
