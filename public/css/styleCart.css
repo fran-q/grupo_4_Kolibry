@@ -3,6 +3,7 @@ header{
     border: 5px;
     border-color: black;
     height: 100px;
+    width: 100%;
 }
 main{
     background-color: blue;
