@@ -1,8 +1,8 @@
 header{
     background-color: aqua;
-    border: 5px;
+    border-style: solid;
     border-color: black;
-    height: 100px;
+    height: 70px;
     width: 100%;
 }
 main{
