@@ -6,20 +6,20 @@ const funca = console.log("el localhost funciona en el puerto " + port);
 
 app.use(express.static("./public"));
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname,"./views/index.html"));
+    res.sendFile(path.resolve(__dirname,"./src/views/index.html"));
 });
 app.get('/detalles', (req, res) => {
-    res.sendFile(path.resolve(__dirname,"./views/productDetails.html"));
+    res.sendFile(path.resolve(__dirname,"./src/views/productDetails.html"));
 });
 app.listen(port, () => funca);
 app.get('/carrito', (req, res) => {
-    res.sendFile(path.resolve(__dirname,"./views/productCart.html"));
+    res.sendFile(path.resolve(__dirname,"./src/views/productCart.html"));
 });
 app.get('/login', (req, res) => {
-    res.sendFile(path.resolve(__dirname,"./views/login.html"));
+    res.sendFile(path.resolve(__dirname,"./src/views/login.html"));
 });
 app.get('/registro', (req, res) => {
-    res.sendFile(path.resolve(__dirname,"./views/register.html"));
+    res.sendFile(path.resolve(__dirname,"./src/views/register.html"));
 });
 
 //npm i nodemon
