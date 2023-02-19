@@ -1,0 +1,12 @@
+header{
+    background-color: aqua;
+    border: 5px;
+    border-color: black;
+    height: 100px;
+}
+main{
+    background-color: blue;
+}
+footer{
+    background-color: chocolate;
+}
