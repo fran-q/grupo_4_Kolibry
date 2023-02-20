@@ -1,13 +1,118 @@
+html{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
 header{
-    background-color: aqua;
     border-style: solid;
     border-color: black;
     height: 70px;
     width: 100%;
 }
 main{
-    background-color: blue;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer{
-    background-color: chocolate;
+    color: #ffffff;
+    background-color: #9A0680;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.listaProductos{
+    margin-bottom: 10px;
+    width: 90vw;
+}
+.producto{
+    background-color: #FFF5E1;
+    width: 100%;
+    margin: 6px;
+    border-radius: 5px;
+    font-size: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cantProducto{
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.masMenos{
+    font-size: 0.6rem;
+    background-color: #FFD39A;
+    border: none;
+}
+.botonEliminar{
+    background-color: #FFD39A;
+    border: none;
+    border-radius: 5px;
+}
+.descripcion{
+    font-size: 0.7rem;
+    background-color: #FFF5E1;
+    border-radius: 15px;
+    padding: 10px;
+    width: 70vw;
+}
+.botonComprar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.comprar{
+    background-color: #FFD39A;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.seccionesFooter{
+    margin: 10px;
+}
+.iconosFooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 550px){
+    /*tablet*/
+    main{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .producto{
+        font-size: 1.2rem;
+    }
+    .listaProductos{
+        width: 65vw;
+    }
+    .descripcion{
+        font-size: 1.2rem;
+        width: 20vw;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    /*desktop*/
 }

@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 const funca = console.log("el localhost funciona en el puerto " + port);
 
-app.use(express.static("./public"));
+app.use(express.static("public"));
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname,"./views/index.html"));
 });
@@ -23,5 +23,5 @@ app.get('/registro', (req, res) => {
 });
 
 //npm i nodemon
-//npx nodemon app.js
+//npx nodemon app
 // Con el primer comando instalan el nodemon y con el segundo lo ejecutan, para que los cambios se carguen de forma inmediata a la pagina web apenas guarden los cambios, lo anoto por las dudas
