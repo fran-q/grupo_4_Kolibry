@@ -4,22 +4,26 @@ body{ margin: 0;}
 /* Header */
 .header{
     text-align: center;
-    border: 2px solid red;
     background-color: #9A0680;
     padding: 20px;
 }
-.logo{
-    width: 25%;
+.logo{ width: 25%;  }
+.busqueda{ margin: 18px 0; }
+.section-busqueda{
+    border-radius: 10px;
+    padding: 5px;
+    background: #fff5e2;
 }
-.busqueda{
-    margin: 15px 0;
-    color: #fff5e2;
+.section-busqueda i{ color: #797979;}
+.cuadrado-busqueda { 
+    border: none;
+    background-color: #fff5e2;
 }
 .carrito-user{
     margin: 15px 0;
     color: #fff5e2;
 }
-span{ margin: 5px;}
+span{ margin: 6px;}
 
 /* Main */
 .main{
@@ -86,8 +90,6 @@ input[type="radio"]{ margin-right: 10px;}
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 /* Responsive */
 @media(min-width: 400px){
