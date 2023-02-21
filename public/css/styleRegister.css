@@ -1,23 +1,38 @@
 * { font-family:'Poppins', sans-serif; }
 body{ margin: 0;}
 
+/* Header */
 .header{
+    text-align: center;
     border: 2px solid red;
+    background-color: #9A0680;
+    padding: 20px;
 }
 .logo{
-    width: 30%;
+    width: 25%;
 }
+.busqueda{
+    margin: 15px 0;
+    color: #fff5e2;
+}
+.carrito-user{
+    margin: 15px 0;
+    color: #fff5e2;
+}
+span{ margin: 5px;}
 
+/* Main */
 .main{
     display: flex; 
     justify-content: center;
+    background-color: #fff5e2;
 }
 .block{
-    color: beige;
+    color: #fff5e2;
     border-radius: 30px;
     margin: 8em 0;
     padding: 40px 30px;
-    background-color: #791669;
+    background-color: #9A0680;
     width: 55%;
     text-align: center;
 }
@@ -41,16 +56,59 @@ body{ margin: 0;}
     text-align: center;
 }
 .button{
+    
     border: none;
     border-radius: 10px;
-    color: rgb(110, 110, 114);
+    color: rgb(96, 96, 99);
     padding: 5px 15px;
 }
-label{ 
-    font-size: 14px;
-}
+label{ font-size: 14px;}
 input[type="radio"]{ margin-right: 10px;}
 
+/* Footer*/
 .footer{
-    border: 2px solid blue;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #9A0680;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconosFooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* Responsive */
+@media(min-width: 400px){
+    /*tablet*/
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    label{ 
+        font-size: 16px;
+    }
+
+}
+
+@media(min-width: 800px){
+    /*desktop*/
+    .header{ padding: 30px;}
+    .footer{
+        padding: 30px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }

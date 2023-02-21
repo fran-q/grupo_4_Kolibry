@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styleRegister.css">
     <title>Registro</title>
 </head>
 <body>
     <header class="header">
         <img src="/public/images/logoKolibry.png" alt="logo" class="logo">
-        <section >
-            <p>Header</p>
+        <form action="/product" method="get" class="busqueda">
+            <label>
+                <input type="text" name="buscar-producto" placeholder="Buscar por producto" class="section-busqueda">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+        </form>
+        <section class="carrito-user">
+            <span class="fa-solid fa-right-to-bracket"></span>
+            <span class="fa-solid fa-user"></span>
+            <span class="fa-solid fa-cart-shopping"></span>
         </section>
     </header>
 
@@ -58,8 +68,21 @@
     </main>
 
     <footer class="footer">
-        <section>
-            <p>Footer</p>
+        <section class="seccionesFooter">
+            <p>Seguinos en nuestras redes sociales</p> 
+            <section class="iconosFooter">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </section>
+        </section>
+
+        <section class="seccionesFooter">
+            <p>Informacion y contactos</p>
+            <section class="iconosFooter">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </section>
         </section>
     </footer>
 
