@@ -82,3 +82,11 @@ span{ margin: 6px; color: #fff5e2;}
         justify-content: space-around;
     }
 }
+
+.animIcon {
+    color: #ffffff;
+    transition: all 1s;
+}
+.animIcon:hover{
+    color: #cf5ebc;
+}

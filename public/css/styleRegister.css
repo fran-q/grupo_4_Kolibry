@@ -114,3 +114,11 @@ input[type="radio"]{ margin-right: 10px;}
         justify-content: space-around;
     }
 }
+
+.animIcon {
+    color: #ffffff;
+    transition: all 1s;
+}
+.animIcon:hover{
+    color: #cf5ebc;
+}
