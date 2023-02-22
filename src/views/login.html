@@ -29,7 +29,23 @@
     </header>
 
     <main class="main">
-        <p>este es el main xd</p>
+        <section class="block">
+            <h3 class="title">Login</h3>
+            <form action="/user" method="post" class="login-user">
+                <section class="section-form">
+                    <input type="text" name="user" placeholder="nombre de usuario" class="section">
+                </section>
+                <section class="section-form">
+                    <input type="password" name="contrasena" placeholder="contraseña" class="section">
+                </section>
+                <section class="section-form">
+                    <label><input type="checkbox" name="recordarme">Desea recordar su usuario?</label>
+                </section>
+                <section class="section-form">
+                    <button type="submit" class="button"><a href="/">Ingresar</a></button>
+                </section>
+            </form>
+        </section>
     </main>
 
     <footer class="footer">

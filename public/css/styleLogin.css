@@ -27,9 +27,37 @@ span{ margin: 6px; color: #fff5e2;}
 
 /* Main */
 .main{
-    padding: 20px;
+    display: flex; 
+    justify-content: center;
     background-color: #fff5e2;
 }
+.block{
+    color: #fff5e2;
+    border-radius: 30px;
+    margin: 8em 0;
+    padding: 40px 30px;
+    background-color: #9A0680;
+    width: 55%;
+    text-align: center;
+}
+.title{ font-size: 25px; margin: 0 0 30px;}
+.section-form{
+    margin-bottom: 20px;
+}
+.section{
+    width: 66%;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 10px;
+    text-align: center;
+}
+.button{
+    background-color: #fff5e2;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.button a{ color: rgb(96, 96, 99); text-decoration: none;}
 
 /* Footer*/
 

@@ -13,19 +13,19 @@
 </head>
 <body>
     
-    <header>
-        <div class="leftHeader">
-            <img src="../../public/images/logoKolibry.png" alt="logo">
-            <div>
-                categorias
-            </div>
-        </div>
-            
-        <div class="rightHeader">
-            <i class="fa-solid fa-magnifying-glass iconosHeader"></i>
-            <i class="fa-solid fa-cart-shopping iconosHeader"></i>
-            <i class="fa-solid fa-user iconosHeader"></i>
-        </div>
+    <header class="header">
+        <img src="/public/images/logoKolibry.png" alt="logo" class="logo">
+        <form action="/product" method="get" class="busqueda">
+            <label class="section-busqueda">
+                <input type="text" name="buscar-producto" placeholder="Buscar por producto" class="cuadrado-busqueda" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+        </form>
+        <section class="carrito-user">
+            <a href="/registro"><span class="fa-solid fa-right-to-bracket"></span></a>
+            <a href="/login"><span class="fa-solid fa-user"></span></a>
+            <a href="/carrito"><span class="fa-solid fa-cart-shopping"></span></a>
+        </section>
     </header>
 
     <main>
@@ -109,23 +109,23 @@
         </div>
     </main>
 
-    <footer>
-        <div class="seccionesFooter">
-            seguinos en nuestras redes sociales
-            <div class="iconosFooter">
+    <footer class="footer">
+        <section class="seccionesFooter">
+            <p>Seguinos en nuestras redes sociales</p> 
+            <section class="iconosFooter">
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
-            </div>
-        </div>
-        <div class="seccionesFooter">
-            Informacion y contactos
-            <div class="iconosFooter">
+            </section>
+        </section>
+
+        <section class="seccionesFooter">
+            <p>Informacion y contactos</p>
+            <section class="iconosFooter">
                 <i class="fa-solid fa-phone"></i>
                 <i class="fa-solid fa-envelope"></i>
-                <i class="fa-solid fa-shop"></i>
-            </div>
-        </div>
+            </section>
+        </section>
     </footer>
 
 </body>
