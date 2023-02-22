@@ -2,13 +2,21 @@ html{
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    margin: 0px;
+}
 header{
-    border-style: solid;
-    border-color: black;
+    background-color: #cfcfcf;
     height: 70px;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 main{
+    margin-bottom: 20px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -17,8 +25,8 @@ main{
     align-items: center;
 }
 footer{
-    color: #ffffff;
-    background-color: #9A0680;
+    color: #000000;
+    background-color: #cfcfcf;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -26,17 +34,40 @@ footer{
     align-items: center;
 }
 
+.leftHeader{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rightHeader{
+    width: 30vw;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.iconosHeader{
+    background-color: #9A0680;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 20px;
+}
 
 .listaProductos{
     margin-bottom: 10px;
     width: 90vw;
 }
 .producto{
-    background-color: #FFF5E1;
+    color: #ffffff;
+    background-color: #9A0680;
     width: 100%;
-    margin: 6px;
-    border-radius: 5px;
-    font-size: 0.5rem;
+    height: 60px;
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 0.7rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -51,19 +82,22 @@ footer{
 }
 .masMenos{
     font-size: 0.6rem;
-    background-color: #FFD39A;
+    background-color: #FFF5E1;
     border: none;
 }
 .botonEliminar{
-    background-color: #FFD39A;
+    background-color: #FFF5E1;
     border: none;
     border-radius: 5px;
 }
+
+
 .descripcion{
-    font-size: 0.7rem;
-    background-color: #FFF5E1;
+    color: #ffffff;
+    font-size: 1rem;
+    background-color: #9A0680;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
     width: 70vw;
 }
 .botonComprar{
@@ -72,10 +106,10 @@ footer{
     justify-content: center;
 }
 .comprar{
-    background-color: #FFD39A;
+    background-color: #FFF5E1;
     border: none;
     border-radius: 10px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .seccionesFooter{
@@ -91,7 +125,7 @@ footer{
 }
 
 
-@media screen and (min-width: 550px){
+@media screen and (min-width: 750px){
     /*tablet*/
     main{
         flex-direction: row;
@@ -99,6 +133,7 @@ footer{
     }
     .producto{
         font-size: 1.2rem;
+        height: 120px;
     }
     .listaProductos{
         width: 65vw;
@@ -110,6 +145,13 @@ footer{
     footer{
         flex-direction: row;
         justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .seccionesFooter{
+        font-size: 1.5rem;
     }
 }
 
