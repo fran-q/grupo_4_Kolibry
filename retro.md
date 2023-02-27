@@ -1,4 +1,9 @@
+  Primer Sprint
   En este primer sprint comenzamos a trabajar en grupo y pudimos comunicaranos de forma exitosa las ideas, a su vez que buscamos de forma continua inspiracion sobre paginas ya diseñadas anteriormente, sumado a herramientas nuevas como github y trello ahora podremos desarrollar de forma eficaz el proyecto, como puntos positivos destacar podemos tomar la implementacion de penpot para los wireframes.
   Gracias a la cantidad variada de herramientas podemos y esperamos presentar un buen proyecto si es que nos enfocamos en la organizacion y distribucion de las tareas para poder optimizar los tiempos al maximo, la etapa de implementacion del html y css ser un desafio a nivel organizativo/comunicativo.
   Al ser nuestro primer proyecto a nivel grupal, varias ideas fueron descartadas en el diseño de la paginan web, como un carrusel de banner o de foto de presentacion de producto, para implementar banners estaticos o galerias en su lugar.
   
+  Segundo Sprint
+  En este sprint vemos que logramos ajustarnos a un ritmo de trabajo y con ello una buena comucacion en equipo, apesar de haber tenido algunos problemas con la nueva herramienta github nos ayudamos mutuamente a resolverlas,  en comparacion trello nos ayudo bastante en la division de tareas y organizacion siendo sencilla,intuitiva y muy util para un equipo.
+  Con el trabajo de Mercado Liebre terminado nos brindo una mayor falicidad para abarcar este segundo sprint en estructura de proyecto, diseño y mas que nada codigo, conseguimos una buena base.
+  Por el momento lo que mas nos interesa implementar y creeemos que ya lo estamos haciendo es daily/weekly standup una reunión en los equipos de Scrum que se realiza todos los días o una vez por semana, nosotros trabajamos por medio de llamadas de una o dos horas por si surge algun problema en ese lapso de tiempo estamos todos para ayudar.
