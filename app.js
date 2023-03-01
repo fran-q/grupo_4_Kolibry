@@ -4,6 +4,8 @@ const app = express();
 const port = 3000;
 const funca = console.log("el localhost funciona en el puerto " + port);
 
+app.set("view engine", "ejs");
+
 app.listen(port, () => funca);
 
 app.use(express.static("./public"));
