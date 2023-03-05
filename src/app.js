@@ -1,13 +1,19 @@
 const path = require("path");
 const express = require("express");
 const app = express();
-
 const port = 3000;
 const funca = console.log("el localhost funciona en el puerto " + port);
+let routesProducts = require("./routers/products.js");
+let routesUsers = require("./routers/users.js");
 
 app.listen(port, () => funca);
 app.set("view engine", "ejs");
-app.use(express.static("./public"));
+app.use(express.static("./public/images"));
+
+app.use("/products", routesProducts);
+app.use("/users", routesUsers);
+
+
 
 // tipogrgrafias que selecionamos para usar
 
