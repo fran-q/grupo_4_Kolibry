@@ -2,14 +2,15 @@ const path = require("path");
 const express = require("express");
 const app = express();
 const port = 3000;
-const funca = console.log("el localhost funciona en el puerto " + port);
+const start = () => console.log("el localhost funciona en el puerto " + port);
 let routesProducts = require("./routers/products.js");
 let routesUsers = require("./routers/users.js");
 
-app.listen(port, () => funca);
+app.listen(port, start);
 app.set("view engine", "ejs");
-app.use(express.static("./public/images"));
+app.set("views", path.resolve(__dirname, "./views"));
 
+app.use(express.static(path.resolve(__dirname,"../public")));
 app.use("/products", routesProducts);
 app.use("/users", routesUsers);
 
