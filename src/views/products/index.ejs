@@ -1,31 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styleIndex.css">
-    <title>Kolibry pagina principal</title>
-</head>
+<%- include("./partials/head.ejs") %>
 <body>
-    <header class="header">
-        <img src="/images/logoKolibry.png" alt="logo" class="logo">
-        <form action="/product" method="get" class="busqueda">
-            <label class="section-busqueda">
-                <input type="text" name="buscar-producto" placeholder="Buscar por producto" class="cuadrado-busqueda" >
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </label>
-        </form>
-        <section class="carrito-user">
-            <a href="/registro"><span class="fa-solid fa-right-to-bracket animIcon"></span></a>
-            <a href="/login"><span class="fa-solid fa-user animIcon"></span></a>
-            <a href="/carrito"><span class="fa-solid fa-cart-shopping animIcon"></span></a>
-        </section>
-    </header>
+    <%- include("./partials/header.ejs") %>
 
     <!-- el header se "pega"? objeto estatico en la pantalla y el titulo de cada categoria al inicio tambien (idea a debatir)-->
 
@@ -106,23 +83,6 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <section class="seccionesFooter">
-            <p>Seguinos en nuestras redes sociales</p> 
-            <section class="iconosFooter">
-                <i class="fa-brands fa-instagram animIcon"></i>
-                <i class="fa-brands fa-facebook animIcon"></i>
-                <i class="fa-brands fa-twitter animIcon"></i>
-            </section>
-        </section>
-
-        <section class="seccionesFooter">
-            <p>Informacion y contactos</p>
-            <section class="iconosFooter">
-                <i class="fa-solid fa-phone animIcon"></i>
-                <i class="fa-solid fa-envelope animIcon"></i>
-            </section>
-        </section>
-    </footer>
+    <%- include("./partials/footer.ejs") %>
 </body>
 </html>

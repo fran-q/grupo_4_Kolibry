@@ -10,7 +10,7 @@ app.listen(port, start);
 app.set("view engine", "ejs");
 app.set("views", path.resolve(__dirname, "./views"));
 
-app.use(express.static(path.resolve(__dirname,"../public")));
+app.use(express.static("public"));
 app.use("/products", routesProducts);
 app.use("/users", routesUsers);
 
